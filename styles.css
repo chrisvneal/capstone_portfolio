@@ -128,10 +128,10 @@ ul {
 
 footer {
 	background: #cfc5d1;
-	padding: 2rem 0;
+	padding: 2rem 0 0.8rem;
 }
 
-footer div {
+footer .container div {
 	margin-bottom: 1.2rem;
 }
 
