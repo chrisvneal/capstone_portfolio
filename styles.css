@@ -16,3 +16,15 @@ body {
 .profile-image img {
 	width: 40%;
 }
+
+section {
+	padding: 10px 0;
+}
+
+.container {
+	padding: 0 10px;
+}
+
+h2 {
+	color: red;
+}
