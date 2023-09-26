@@ -1,5 +1,5 @@
 /* black: #272932 */
-/* blue: #4D7EA8 */
+/* blue: #8aa3b9 */
 /* gray-dark; #828489 */
 /* gray-light: #D9DCE1 */
 /* purple: #9E90A2 */
@@ -29,8 +29,23 @@ section {
 	padding: 10px 0;
 }
 
+.name {
+	font-size: 2rem;
+}
+
 .profile-image {
 	margin: 1rem 0;
+}
+
+header {
+	background: #8aa3b9;
+	padding: 1.2rem 0;
+}
+
+.header-text {
+	font-family: "PT Sans Narrow", serif;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .header-text span {
@@ -135,7 +150,7 @@ ul {
 }
 
 footer {
-	background: #cfc5d1;
+	background: #8aa3b9;
 	padding: 2rem 0 0.8rem;
 }
 
@@ -151,10 +166,6 @@ footer .container div {
 	font-size: 0.85rem;
 	text-align: center;
 	line-height: 2;
-}
-
-header {
-	padding-top: 10px;
 }
 
 .projects img {
