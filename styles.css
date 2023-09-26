@@ -4,6 +4,10 @@
 /* gray-light: #D9DCE1 */
 /* purple: #9E90A2 */
 
+:root {
+	--header: #a6c0d6;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -14,48 +18,8 @@ body {
 	font-family: "Manrope", "Arial", sans-serf;
 }
 
-.profile-image,
-.aboutme__body .profile__image--small {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.profile-image img,
-.aboutme__body .profile__image--small img {
-	width: 40%;
-}
-
 section {
 	padding: 10px 0;
-}
-
-.name {
-	font-size: 2rem;
-}
-
-.profile-image {
-	margin: 1rem 0;
-}
-
-header {
-	background: #8aa3b9;
-	padding: 1.2rem 0;
-}
-
-.header-text {
-	font-family: "PT Sans Narrow", serif;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
-.header-text span {
-	display: block;
-	text-align: center;
-	margin-bottom: 0.9rem;
-}
-
-.header-text p {
-	text-align: center;
 }
 
 .container {
@@ -85,6 +49,49 @@ h4 {
 ul {
 	list-style-type: none;
 }
+
+/* Header section */
+.profile-image,
+.aboutme__body .profile__image--small {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.profile-image img,
+.aboutme__body .profile__image--small img {
+	width: 40%;
+}
+
+header {
+	background: var(--header);
+	padding: 1.2rem 0;
+}
+
+.header-text {
+	font-family: "PT Sans Narrow", serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.profile-image {
+	margin: 1rem 0;
+}
+
+.name {
+	font-size: 2rem;
+}
+
+.header-text span {
+	display: block;
+	text-align: center;
+	margin-bottom: 0.9rem;
+}
+
+.header-text p {
+	text-align: center;
+}
+
+/* Resume and Sills section */
 
 .resume > div {
 	margin-bottom: 10px;
@@ -118,6 +125,8 @@ ul {
 	margin-bottom: 22px;
 }
 
+/* About Me section */
+
 .about__contact-info {
 	margin-bottom: 25px;
 }
@@ -149,24 +158,11 @@ ul {
 	border-radius: 2rem;
 }
 
-footer {
-	background: #8aa3b9;
-	padding: 2rem 0 0.8rem;
-}
-
-footer .container div {
-	margin-bottom: 1.2rem;
-}
-
 .social-links li {
 	margin-bottom: 1rem;
 }
 
-.copyright {
-	font-size: 0.85rem;
-	text-align: center;
-	line-height: 2;
-}
+/* Projects section  */
 
 .projects img {
 	max-width: 100%;
@@ -183,8 +179,27 @@ main div:last-child {
 	margin-bottom: 0.8rem;
 }
 
+/* Footer section */
+
+footer {
+	background: var(--header);
+	padding: 2rem 0 0.8rem;
+}
+
+footer .container div {
+	margin-bottom: 1.2rem;
+}
+
+.copyright {
+	font-size: 0.85rem;
+	text-align: center;
+	line-height: 2;
+}
+
+/* Media Queries section */
+
 @media screen and (min-width: 480px) {
 	body {
-		background: red;
+		background: var(--darkblue);
 	}
 }
