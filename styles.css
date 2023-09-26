@@ -8,12 +8,14 @@ body {
 	font-family: "Manrope", "Arial", sans-serf;
 }
 
-.profile-image {
+.profile-image,
+.aboutme__body .profile__image--small {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.profile-image img {
+.profile-image img,
+.aboutme__body .profile__image--small img {
 	width: 40%;
 }
 
