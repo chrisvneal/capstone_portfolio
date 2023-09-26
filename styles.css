@@ -29,6 +29,20 @@ section {
 	padding: 10px 0;
 }
 
+.profile-image {
+	margin: 1rem 0;
+}
+
+.header-text span {
+	display: block;
+	text-align: center;
+	margin-bottom: 0.9rem;
+}
+
+.header-text p {
+	text-align: center;
+}
+
 .container {
 	padding: 0 10px;
 }
@@ -132,5 +146,5 @@ footer div {
 }
 
 header {
-	padding-top: 20px;
+	padding-top: 10px;
 }
