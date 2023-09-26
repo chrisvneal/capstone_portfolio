@@ -130,3 +130,7 @@ footer div {
 	text-align: center;
 	line-height: 2;
 }
+
+header {
+	padding-top: 20px;
+}
