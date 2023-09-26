@@ -34,5 +34,47 @@ p {
 }
 
 h2 {
-	color: red;
+	color: #272932;
+}
+
+h4 {
+	color: #272932;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.resume > div {
+	margin-bottom: 10px;
+}
+
+.education__list li {
+	padding: 10px 0;
+}
+
+.education__list li:not(:last-child) {
+	padding: 10px 0;
+	border-bottom: 1px solid #f5f0f0;
+}
+
+.resume h3 {
+	color: #4d7ea8;
+	padding: 6px 0;
+	padding-left: 4px;
+	background: #d9dce1;
+}
+
+.skills p,
+.projects p {
+	line-height: 1.8;
+}
+
+.skills li,
+.topindustries li {
+	margin-bottom: 22px;
+}
+
+.education__list-item-date {
+	font-size: 0.95rem;
 }
