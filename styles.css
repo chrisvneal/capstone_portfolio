@@ -55,6 +55,10 @@ p {
 	margin-bottom: 10px;
 }
 
+h4 {
+	margin-bottom: 20px;
+}
+
 h2 {
 	color: #272932;
 }
@@ -122,8 +126,12 @@ ul {
 .about__contact-social ul {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin: 1rem auto 0;
 	width: 80%;
+	border: 1px solid #9e90a2;
+	padding: 0.5rem;
+	border-radius: 2rem;
 }
 
 footer {
@@ -158,4 +166,8 @@ header {
 }
 .otherprojects__image {
 	margin-bottom: 1.3rem;
+}
+
+main div:last-child {
+	margin-bottom: 0.8rem;
 }
