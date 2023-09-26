@@ -148,3 +148,14 @@ footer .container div {
 header {
 	padding-top: 10px;
 }
+
+.projects img {
+	max-width: 100%;
+}
+
+.recentproject {
+	margin-bottom: 2rem;
+}
+.otherprojects__image {
+	margin-bottom: 1.3rem;
+}
