@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: "Manrope", "Arial", sans-serf;
+}
+
 .profile-image {
 	display: flex;
 	justify-content: center;
