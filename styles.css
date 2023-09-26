@@ -4,7 +4,11 @@
 	box-sizing: border-box;
 }
 
-.container {
-	display: grid;
-	grid-template-columns: 1fr;
+.profile-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.profile-image img {
+	width: 40%;
 }
