@@ -94,3 +94,14 @@ ul {
 .aboutme__body .profile__image--small {
 	margin: 1rem 0;
 }
+
+.about__contact-social img {
+	width: 3.2rem;
+}
+
+.about__contact-social ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem auto 0;
+	width: 80%;
+}
