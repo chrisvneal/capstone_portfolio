@@ -198,8 +198,8 @@ footer .container div {
 
 /* Media Queries section */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 580px) {
 	body {
-		background: var(--darkblue);
+		background: red;
 	}
 }
