@@ -201,7 +201,7 @@ footer .container div {
 @media screen and (min-width: 580px) {
 	.resume {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 2fr;
 		gap: 15px;
 	}
 
