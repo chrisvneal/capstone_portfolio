@@ -202,5 +202,10 @@ footer .container div {
 	.resume {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		gap: 15px;
+	}
+
+	.topindustries {
+		grid-column: 1 / 3;
 	}
 }
