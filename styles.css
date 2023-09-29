@@ -198,8 +198,9 @@ footer .container div {
 
 /* Media Queries section */
 
-@media screen and (min-width: 480px) {
-	body {
-		background: var(--darkblue);
+@media screen and (min-width: 580px) {
+	.resume {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 }
