@@ -16,6 +16,8 @@
 
 body {
 	font-family: "Manrope", "Arial", sans-serf;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 section {
@@ -57,11 +59,6 @@ ul {
 	justify-content: center;
 	align-items: center;
 }
-.profile-image img,
-.aboutme__body .profile__image--small img {
-	width: 40%;
-}
-
 header {
 	background: var(--header);
 	padding: 1.2rem 0;
@@ -75,6 +72,11 @@ header {
 
 .profile-image {
 	margin: 1rem 0;
+}
+
+.profile-image img,
+.profile__image--small img {
+	width: 120px;
 }
 
 .name {
@@ -205,12 +207,18 @@ footer .container div {
 =======
 	.resume {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 2fr;
 		gap: 15px;
 	}
 
 	.topindustries {
 		grid-column: 1 / 3;
 >>>>>>> styles
+	}
+
+	header .container {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
 	}
 }
