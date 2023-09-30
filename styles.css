@@ -146,8 +146,12 @@ header {
 
 /* About Me section */
 
+.aboutme {
+	margin-bottom: 15px;
+}
+
 .about__contact-info {
-	margin-bottom: 25px;
+	margin: 2rem 0;
 }
 
 .about__contact-info li {
@@ -194,7 +198,7 @@ header {
 	margin-bottom: 2rem;
 }
 
-main div:last-child {
+main section:last-child {
 	margin-bottom: 0.8rem;
 }
 
@@ -229,6 +233,25 @@ footer .container div {
 
 	.projects {
 		grid-template-columns: 1fr 1fr;
+	}
+
+	.aboutme__body {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 30px;
+	}
+
+	.aboutme__text {
+		max-width: 550px;
+	}
+
+	.aboutme__image {
+		max-width: 240px;
+	}
+
+	.aboutme__image img {
+		width: 65%;
 	}
 
 	.otherprojects li {
