@@ -201,10 +201,6 @@ footer .container div {
 /* Media Queries section */
 
 @media screen and (min-width: 580px) {
-<<<<<<< HEAD
-	body {
-		background: red;
-=======
 	.resume {
 		display: grid;
 		grid-template-columns: 1fr 2fr;
@@ -213,7 +209,6 @@ footer .container div {
 
 	.topindustries {
 		grid-column: 1 / 3;
->>>>>>> styles
 	}
 
 	header .container {
