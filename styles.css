@@ -20,6 +20,16 @@ body {
 	margin: 0 auto;
 }
 
+header {
+	margin-bottom: 15px;
+}
+
+header .container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
 section {
 	padding: 10px 0;
 }
@@ -220,6 +230,10 @@ footer .container div {
 
 	.projects {
 		grid-template-columns: 1fr 1fr;
+	}
+
+	.otherprojects li {
+		margin-bottom: 20px;
 	}
 
 	.topindustries {
