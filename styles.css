@@ -201,10 +201,17 @@ footer .container div {
 /* Media Queries section */
 
 @media screen and (min-width: 580px) {
-	.resume {
+	.resume,
+	.projects {
 		display: grid;
-		grid-template-columns: 1fr 2fr;
 		gap: 15px;
+	}
+	.resume {
+		grid-template-columns: 1fr 2fr;
+	}
+
+	.projects {
+		grid-template-columns: 1fr 1fr;
 	}
 
 	.topindustries {
@@ -215,5 +222,13 @@ footer .container div {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
+	}
+
+	.recentproject img {
+		height: 300px;
+	}
+
+	.otherprojects__image img {
+		width: 200px;
 	}
 }
