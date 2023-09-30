@@ -231,4 +231,8 @@ footer .container div {
 	.otherprojects__image img {
 		width: 200px;
 	}
+
+	.otherprojects li {
+		display: flex;
+	}
 }
