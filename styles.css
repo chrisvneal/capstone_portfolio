@@ -60,7 +60,7 @@ ul {
 
 /* Header section */
 .profile-image,
-.aboutme__body .profile__image--small {
+.aboutme__body .aboutme__image {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -81,7 +81,7 @@ header {
 }
 
 .profile-image img,
-.profile__image--small img {
+.aboutme__image img {
 	width: 120px;
 }
 
@@ -158,7 +158,7 @@ header {
 	font-size: 0.95rem;
 }
 
-.aboutme__body .profile__image--small {
+.aboutme__body .aboutme__image {
 	margin: 1rem 0;
 }
 
